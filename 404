@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>404 – Stránka nenalezena</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Lottie Web Component -->
+  <script
+    src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.11/dist/dotlottie-wc.js"
+    type="module">
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #0f172a;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 20px;
+    }
+
+    p {
+      opacity: 0.8;
+    }
+
+    a {
+      margin-top: 20px;
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <dotlottie-wc
+    src="https://lottie.host/223b6290-a291-4159-9896-b1c36ca2d1c1/QKcsLehxOv.lottie"
+    style="width: 320px; height: 320px;"
+    autoplay
+    loop>
+  </dotlottie-wc>
+
+  <h1>404</h1>
+  <p>Stránka nebyla nalezena</p>
+
+  <a href="/">Zpět na hlavní stránku</a>
+
+</body>
+</html>
